@@ -1,0 +1,85 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400|Roboto:300');
+body {
+	-webkit-font-smoothing: antialiased;
+	font-size: 35px;
+	background-color: #152238;
+}
+.header {
+	margin-top: 200px;
+	margin-bottom: 200px;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.name {
+	border: 1px solid #626972;
+	border-top: transparent;
+	border-left: transparent;
+	border-bottom: transparent;
+	display: flex;
+	flex: 1;
+	justify-content: flex-end;
+	padding-right: 115px;
+	align-items: center;
+}
+	.name p {
+		font-family: 'Roboto', sans-serif;
+		font-size: 75px;
+		color: #d0d0d0;
+		line-height: 1.5;
+		letter-spacing: 4.8px;
+	}
+.description {
+	color: #bebebe;
+	display: flex;
+	flex: 1;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	padding-left: 115px;
+}
+ .oneLiner {
+
+	 display: flex;
+	 font-family: 'Open Sans', sans-serif;
+	 font-size: 37.5px;
+	 font-weight: 300;
+	 align-self: center;
+}
+.words {
+	display: flex;
+	text-indent: 10px;
+}
+	.words span {
+		vertical-align: text-top;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 400;
+		position: absolute;
+		opacity: 0;
+		animation: slideWords 8s linear infinite;
+	}
+ .words span:nth-child(2) {
+	 animation-delay: 1.6s;
+}
+
+.words span:nth-child(3) {
+	 animation-delay: 3.2s;
+}
+ .words span:nth-child(4) {
+	 animation-delay: 4.8s;
+}
+ .words span:nth-child(5) {
+	 animation-delay: 6.4s;
+}
+
+ @keyframes slideWords {
+	 0%, 20% {
+		 opacity: 0;
+	}
+	 10%, 15% {
+		 opacity: 1;
+	}
+}
+ 
