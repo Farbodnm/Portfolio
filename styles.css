@@ -1,4 +1,4 @@
-﻿@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400|Roboto:300');
+﻿@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400|Roboto:300|Quicksand:400,500,700');
 
 body {
 	-webkit-font-smoothing: antialiased;
@@ -11,15 +11,16 @@ body {
 	margin-bottom: 11.5%;
 	display: flex;
 	justify-content: center;
-	flex-direction: row;
 	flex-wrap: wrap;
+	flex-direction: row;
 }
 
+
 .name {
-	border: 1px solid #626972;
 	border-top: transparent;
 	border-left: transparent;
 	border-bottom: transparent;
+	border-right: 1px solid #626972;
 	display: flex;
 	flex: 1;
 	justify-content: flex-end;
@@ -88,5 +89,16 @@ body {
 
 	10%, 15% {
 		opacity: 1;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	.header {
+		flex-direction: column;
+	}
+
+	.name {
+		border-right: transparent;
+		border-bottom: 1px solid #626972;
 	}
 }
