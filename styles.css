@@ -7,8 +7,8 @@ body {
 }
 
 .header {
-	margin-top: 11.5%;
-	margin-bottom: 11.5%;
+	margin-top: 14%;
+	margin-bottom: 14%;
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
@@ -30,7 +30,7 @@ body {
 
 	.name p {
 		font-family: 'Roboto', sans-serif;
-		font-size: 75px;
+		font-size: 60px;
 		color: #d0d0d0;
 		line-height: 1.5;
 		letter-spacing: 4.8px;
@@ -55,7 +55,7 @@ body {
 }
 
 .words {
-	text-indent: 10px;
+	text-indent: 5px;
 }
 
 	.words span {
@@ -89,16 +89,5 @@ body {
 
 	10%, 15% {
 		opacity: 1;
-	}
-}
-
-@media only screen and (max-width: 400px) {
-	.header {
-		flex-direction: column;
-	}
-
-	.name {
-		border-right: transparent;
-		border-bottom: 1px solid #626972;
 	}
 }
