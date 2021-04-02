@@ -9,24 +9,36 @@ html, body {
 
 body {
 	-webkit-font-smoothing: antialiased;
-	font-size: 35px;
 	background-color: #fff;
+	font-size: 25px;
 }
 
 .bodyp1 {
 	font-family: 'Roboto', sans-serif;
 	text-align: justify;
+	padding-top: 70px;
+	padding-bottom: 50px;
 	padding-left: 15%;
 	padding-right: 15%;
-	font-size: 25px;
+}
+
+.bodyp2 {
+	font-family: 'Roboto', sans-serif;
+	text-align: justify;
+	padding-top: 70px;
+	padding-bottom: 120px;
+	padding-left: 15%;
+	padding-right: 15%;
+	background-color: #152238;
+	color: #bebebe;
 }
 
 .home {
 	width: 100%;
 	background-position: center top;
 	background-size: cover;
-	padding-top: 11%;
-	padding-bottom: 12%;
+	padding-top: 10.5%;
+	padding-bottom: 11.5%;
 	background-color: #152238;
 }
 
@@ -448,4 +460,8 @@ body {
 .affix {
 	padding: 0;
 	background-color: #111;
+}
+
+.navheight {
+	height: 60px;
 }
