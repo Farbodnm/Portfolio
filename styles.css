@@ -17,20 +17,22 @@ body {
 	font-family: 'Roboto', sans-serif;
 	text-align: justify;
 	padding-top: 70px;
-	padding-bottom: 50px;
+	padding-bottom: 70px;
 	padding-left: 15%;
 	padding-right: 15%;
+	margin: 0;
 }
 
 .bodyp2 {
 	font-family: 'Roboto', sans-serif;
 	text-align: justify;
 	padding-top: 70px;
-	padding-bottom: 120px;
+	padding-bottom: 70px;
 	padding-left: 15%;
 	padding-right: 15%;
 	background-color: #152238;
 	color: #bebebe;
+	margin: 0;
 }
 
 .home {
@@ -237,12 +239,22 @@ body {
 		text-indent: 5px;
 	}
 
+	.bodyp1 {
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+
+	.bodyp2 {
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+
 	.nav div.logo a {
 		font-size: 1.25rem;
 	}
 
 	.nav div.logo {
-		margin-left: 0;
+		margin-left: -5%;
 	}
 
 	.nav div.main_list {
@@ -288,10 +300,9 @@ body {
 	cursor: pointer;
 	width: 30px;
 	height: 25px;
-	margin: auto;
 	position: fixed;
 	right: 30px;
-	top: -90.5%;
+	top: 22.5px;
 	bottom: 0;
 }
 
