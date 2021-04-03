@@ -24,9 +24,15 @@ $(window).scroll(function () {
             top: '0',
             left: '0'
         });
-        $('.showS').css({
-            display: 'block'
-        })
+        if ($(window).width() <= 1000) {
+            $('.showS').css({
+                display: 'block'
+            })
+        } else {
+            $('.showS').css({
+                display: 'none'
+            })
+        }
     } else {
         $('.fixme').css({
             position: 'static'
