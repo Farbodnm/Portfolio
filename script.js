@@ -5,6 +5,15 @@ $('.navTrigger').click(function () {
     $("#mainListDiv").fadeIn();
 });
 
+$('.navlinks').click(function () {
+    $(this).toggleClass('active');
+    console.log("Clicked navbar elements");
+    if ($(window).width() <= 900) {
+        console.log("Clicked navbar elements");
+        $('.navTrigger').click();
+    }
+});
+
 $(window).scroll(function () {
     if ($(document).scrollTop() > 20) {
         $('.nav').addClass('affix');
@@ -23,7 +32,7 @@ $(window).scroll(function () {
             top: '0',
             left: '0'
         });
-        if ($(window).width() <= 1000) {
+        if ($(window).width() <= 900) {
             $('.showS').css({
                 display: 'block'
             })
