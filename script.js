@@ -24,12 +24,16 @@ $(window).scroll(function () {
             top: '0',
             left: '0'
         });
-        $('.linkMe').removeAttr("href")
+        $('.showS').css({
+            display: 'block'
+        })
     } else {
         $('.fixme').css({
             position: 'static'
         });
-        $('.linkMe').attr("href", "#about")
+        $('.showS').css({
+            display: 'none'
+        })
     }
 });
 
