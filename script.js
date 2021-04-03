@@ -24,13 +24,16 @@ $(window).scroll(function () {
             top: '0',
             left: '0'
         });
+        $('.linkMe').removeAttr("href")
     } else {
         $('.fixme').css({
             position: 'static'
         });
+        $('.linkMe').attr("href", "#about")
     }
-
 });
+
+
 
 $(document).ready(function () {
     $("a").on('click', function (event) {
@@ -45,3 +48,4 @@ $(document).ready(function () {
         }
     });
 });
+
