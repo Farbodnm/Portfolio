@@ -11,10 +11,10 @@ Just a simple one page portfolio made with HTML/CSS & JS that has an about, serv
 Just a browser to open the index.html and you're all set.
 
 ## Technologies
-HTML5
-CSS3
-JavaScript
-Responsive MQ with CSS3
+- HTML5
+- CSS3
+- JavaScript
+- Responsive MQ with CSS3
 
 ## Extra info
 - If you want to edit the project you can just clone the repo and go for it.
