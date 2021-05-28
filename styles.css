@@ -108,6 +108,7 @@ body {
 
 	#contact a:link {
 		color: #bebebe;
+		transition: 1s;
 	}
 
 	#contact a:visited {
@@ -116,6 +117,7 @@ body {
 
 	#contact a:hover {
 		color: #00E676;
+		text-shadow: 0 0 5px #00E676, 0 0 20px #00E676, 0 0 70px #00E676;
 		text-decoration: none;
 	}
 
@@ -247,10 +249,12 @@ body {
 			text-decoration: none;
 			color: #fff;
 			font-size: 2rem;
+			transition: 1s;
 		}
 
 			.nav div.logo a:hover {
 				color: #00E676;
+				text-shadow: 0 0 5px #00E676, 0 0 20px #00E676, 0 0 70px #00E676;
 			}
 
 	.nav div.main_list {
@@ -279,10 +283,12 @@ body {
 					color: #fff;
 					line-height: 65px;
 					font-size: 2rem;
+					transition: 1s;
 				}
 
 					.nav div.main_list ul li a:hover {
 						color: #00E676;
+						text-shadow: 0 0 5px #00E676, 0 0 20px #00E676, 0 0 70px #00E676;
 					}
 
 .navTrigger {
@@ -472,7 +478,7 @@ body {
 	display: block;
 	justify-content: center;
 	box-sizing: border-box;
-	border: 1px solid #ccc;
+	border: 2px solid #ccc;
 	margin: 10px;
 	padding: 20px;
 	color: #555;
@@ -480,6 +486,7 @@ body {
 	font-size: 13px;
 	flex: 1;
 	min-width: 300px;
+	transition: 1s;
 }
 
 	.github-card h3 {
@@ -489,11 +496,20 @@ body {
 		font-size: 15px;
 	}
 
+	.github-card:hover {
+    box-shadow: 0 0 5px #5e86cc, 0 0 20px #385c99, 0 0 70px #385c99;
+		border: 2px solid #385c99;
+	}
+
 .github-card__meta {
 	margin-right: 20px;
 }
 
 	.github-card__meta i {
+		font-size: 16px;
+	}
+
+	.github-card__meta svg {
 		font-size: 16px;
 	}
 
